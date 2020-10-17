@@ -1,0 +1,9 @@
+
+SOLID – Single Responsibility Principle – SRP
+Single Responsibility Principle, também conhecido como Princípio da Responsabilidade Única.
+
+“Uma classe deve ter um motivo para ser modificada”
+
+Se uma classe só deve ter um motivo para ser modificada, certamente ela só deve ter uma única responsabilidade, logo:
+
+Cada responsabilidade deve ser uma classe, porque uma responsabilidade é um eixo de mudança.
