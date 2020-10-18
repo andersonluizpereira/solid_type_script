@@ -1,6 +1,7 @@
 # Solid TypeScript
 
 TypeScript With Solid (ADS).
+#https://www.carlosag.net/tools/codetranslator/
 
 Fonte:
 https://www.eduardopires.net.br/2015/01/solid-teoria-e-pratica/
