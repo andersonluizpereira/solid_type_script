@@ -1,0 +1,2 @@
+OCP — Princípio aberto-fechado
+Esse principio diz que as classes “devem estar abertas para extensão, mas fechadas para modificação”, com isso passamos evitar possíveis erros a um aplicativo em ambiente produtivo, claro que se a modificação for para corrigir um erro existente no código esse principio não deveria ser aplicado.
