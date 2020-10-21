@@ -1,14 +1,13 @@
 export class DebitoConta {
     
-    NumeroTransacao: string    
+    public NumeroConta: string
     
-    Debitar(valor: number, conta: string): string {
-        return ''
-    }
+    public Valor: number
     
+    public NumeroTransacao: string
+
     FormatarTransacao (): string {
-        const chars: string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-        const characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
+        const characters: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
         var charactersLength = characters.length;
         for ( var i = 0; i < 15; i++ ) {
             this.NumeroTransacao += characters.charAt(Math.floor(Math.random() * charactersLength))
