@@ -6,6 +6,14 @@ export class DebitoConta {
     
     public NumeroTransacao: string
 
+    /**
+     *
+     */
+    constructor(conta: string, valor: number) {
+        this.NumeroConta = conta
+        this.Valor = valor
+    }
+
     FormatarTransacao (): string {
         const characters: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
         var charactersLength = characters.length;
