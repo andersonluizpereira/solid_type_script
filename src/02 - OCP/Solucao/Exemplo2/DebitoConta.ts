@@ -1,5 +1,5 @@
 export class DebitoConta {
-    
+
     public NumeroConta: string
     
     public Valor: number
